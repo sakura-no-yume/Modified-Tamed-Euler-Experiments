@@ -1,5 +1,5 @@
 % 1d modified tamed Euler
-% b = -x^3-1.875x, sigma = 0.5
+% b = -x^3-1.875x, sigma = 0.5x
 clear;
 
 % fix the random variable
