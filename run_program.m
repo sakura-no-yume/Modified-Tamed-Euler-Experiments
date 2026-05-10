@@ -11,7 +11,7 @@ root_dir = fileparts(mfilename('fullpath'));
 programs_dir = fullfile(root_dir, 'programs');
 addpath(programs_dir);
 
-if isempty(regexp(program_name, '\\.m$', 'once'))
+if isempty(regexp(program_name, '\.m$', 'once'))
     program_name = [program_name, '.m'];
 end
 
