@@ -157,7 +157,7 @@ for i = 1 : N
     %     PD(11,k) = (PD(11,k).*(i-1)+ cos(exp(sum(X3(:,k)))))  /i;
     %     PD(12,k) = (PD(12,k).*(i-1)+ cos(exp(sum(X4(:,k)))))  /i;
     % end
-    % PDref(1,1) = (PDref(1,1).*(i-1)+  exp(norm(Xref)^2)pp )/i;
+    % PDref(1,1) = (PDref(1,1).*(i-1)+  exp(norm(Xref)^2) )/i;
     % PDref(2,1) = (PDref(2,1).*(i-1)+ cos((sum(Xref))))/i;
     % PDref(3,1) = (PDref(3,1).*(i-1)+ cos(exp(sum(Xref))))/i;
 end
